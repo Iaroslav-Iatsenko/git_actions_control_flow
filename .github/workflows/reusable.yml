@@ -4,6 +4,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Get build artifacts
+      - name: Output information
         run: echo "Deploying and uploading..."
         
